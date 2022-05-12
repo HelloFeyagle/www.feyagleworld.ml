@@ -21,7 +21,7 @@ export default function Home({ better }) {
 
   useEffect(() => {
     (async() => {
-      let _user = await fetch('https://api.lanyard.rest/v1/users/850299286595698718').then(r => r.json());
+      let _user = await fetch('https://api.lanyard.rest/v1/users/885887066880245772').then(r => r.json());
       setUser(_user?.data?.discord_user || {});
     })();
   }, [router]);
@@ -62,17 +62,17 @@ export default function Home({ better }) {
   return (
     <>
         <div className="relative px-6 py-24 lg:py-8 lg:px-36 lg:py-24 lg:pb-96 flex flex-col items-center justify-center">
-        <h1 className="font-medium text-4xl break-words max-w-2xl text-center">I am 
-          <span className="text-cDiscord"> xrqu</span>. 
-        because I 
+        <h1 className="font-medium text-4xl break-words max-w-2xl text-center">Merhaba, ben
+          <span className="text-cDiscord"> Feyagle</span>. 
+        her zaman 
             <span className="text-cDiscord"> {better} </span>
-         'I am. Always for the best... 
+         yapmaya çalışacağım. 
         </h1>
         <div className="hidden lg:block absolute w-full bottom-20">
           {user?.username && (
             <div className="w-full flex justify-center items-center space-x-4">
               <img style={{ zIndex: 2 }} draggable={false} className={`transition-all ${slideAvatar ? 'translate-x-0' : 'translate-x-72'} duration-500 rounded-full flex-shrink-0`} width="172" height="72" src={`https://cdn.discordapp.com/avatars/${user?.id}/${user?.avatar}?size=4096`} />
-              <p className={`${slideAvatar ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-72'} transition-all duration-500 break-words max-w-xl text-xl font-medium`}>Hello, I'm xrqu. I am a first year high school student and I live in Turkey. I'm good at making bots, although I don't devote my entire life to coding. thank you for reading :)</p>
+              <p className={`${slideAvatar ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-72'} transition-all duration-500 break-words max-w-xl text-xl font-medium`}>Merhaba,  ben feyagle. Javascript'i yeni öğreniyorum. Arkadaşlarımı çok severim.  okuduğunuz için teşekkürler :)</p>
             </div>
           )}
         </div>
@@ -80,8 +80,8 @@ export default function Home({ better }) {
       
       <div className="px-6 lg:px-36 h-full py-36 pt-72">
         <div id="title-repos" className="relative">
-          <p style={{ zIndex: 2 }} className="relative ml-2 text-3xl lg:text-6xl font-medium">Repositories</p>
-          <p className="hidden lg:block absolute bottom-5 opacity-10 ml-2 text-8xl font-medium">Repositories</p>
+          <p style={{ zIndex: 2 }} className="relative ml-2 text-3xl lg:text-6xl font-medium">Github depolarım</p>
+          <p className="hidden lg:block absolute bottom-5 opacity-10 ml-2 text-8xl font-medium">Github depolarım</p>
           <div className="h-3 lg:h-6 w-2/4 -mt-2 lg:-mt-4 opacity-20 bg-cIndigo rounded-xl" />
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 h-full gap-6 mt-6">
@@ -149,8 +149,8 @@ export default function Home({ better }) {
 
 
         <div id="title-repos" className="relative mt-72 flex items-end w-full flex-col">
-          <p style={{ zIndex: 2 }} className="relative ml-2 text-3xl lg:text-6xl font-medium">Technologies I use</p>
-          <p className="hidden lg:block absolute bottom-5 opacity-10 ml-2 text-8xl font-medium">Technologies I use</p>
+          <p style={{ zIndex: 2 }} className="relative ml-2 text-3xl lg:text-6xl font-medium">Kullandığım yazılımlar</p>
+          <p className="hidden lg:block absolute bottom-5 opacity-10 ml-2 text-8xl font-medium">Kullandığım yazılımlar</p>
           <div className="h-3 lg:h-6 w-2/4 -mt-2 lg:-mt-4 opacity-20 bg-cIndigo rounded-xl" />
         </div>
         {_techs ? (
