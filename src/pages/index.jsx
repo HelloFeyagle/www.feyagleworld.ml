@@ -66,7 +66,7 @@ export default function Home({ better }) {
           <span className="text-cDiscord"> Feyagle</span>. 
         her zaman 
             <span className="text-cDiscord"> {better} </span>
-         yapmaya çalışacağım. 
+         çalışacağım. 
         </h1>
         <div className="hidden lg:block absolute w-full bottom-20">
           {user?.username && (
