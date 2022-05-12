@@ -11,9 +11,9 @@ import config from '../../config';
 function MyApp({ Component, pageProps }) {
 
   const betters = [
-    'Self-taught Developer',
-    'person helping people',
-    'a respectful person'
+    'İnsanlara iyi davranmaya',
+    'Dürüst olmaya',
+    'En iyisini yapmaya'
   ];
   let [better, setBetter] = useState(betters[Math.floor(Math.random() * betters.length)]);
   useEffect(() => { setBetter(better) }, [better]);
@@ -24,8 +24,8 @@ function MyApp({ Component, pageProps }) {
       {router.asPath ? (
         config?.titles[router?.asPath] ? (
           config?.titles[router?.asPath] + ' | ' + config?.titleSuffix
-        ) : 'Blank | xrqu.live'
-      ) : 'Loading... | xrqu.live'}
+        ) : 'Blank | feyagleworld.ml'
+      ) : 'Loading... | feyagleworld.ml}
     </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </Head>
