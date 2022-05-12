@@ -72,7 +72,7 @@ export default function Home({ better }) {
           {user?.username && (
             <div className="w-full flex justify-center items-center space-x-4">
               <img style={{ zIndex: 2 }} draggable={false} className={`transition-all ${slideAvatar ? 'translate-x-0' : 'translate-x-72'} duration-500 rounded-full flex-shrink-0`} width="172" height="72" src={`https://cdn.discordapp.com/avatars/${user?.id}/${user?.avatar}?size=4096`} />
-              <p className={`${slideAvatar ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-72'} transition-all duration-500 break-words max-w-xl text-xl font-medium`}>Merhaba,  ben feyagle. Javascript'i yeni öğreniyorum. Arkadaşlarımı çok severim.  okuduğunuz için teşekkürler :)</p>
+              <p className={`${slideAvatar ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-72'} transition-all duration-500 break-words max-w-xl text-xl font-medium`}>Merhaba, Ben Taha. Javascript ile ilgili projeler yaparım. en iyi Arkadaşlarım Herox Ve Rmeilvang.Benimle İletişime Geçmek İçin iletisim@feyagleworld.ml adresini kullanabilirsin. Okuduğunuz için teşekkürler :)</p>
             </div>
           )}
         </div>
