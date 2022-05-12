@@ -8,7 +8,7 @@ const Footer = ({ better }) => {
         <div className="lg:flex justify-between w-full">
           <Link href="/">
             <p className="cursor-pointer flex items-center font-medium text-2xl">
-              <span className="bg-zinc-200 text-xs px-2 py-1 mr-2 rounded-lg">v3.0</span>xrqu
+              <span className="bg-zinc-200 text-xs px-2 py-1 mr-2 rounded-lg">v1.0</span>FeyagleWorld
               <span style={{ zIndex: 4 }} className="relative text-cIndigo">
                 .
               </span>
@@ -17,7 +17,7 @@ const Footer = ({ better }) => {
           <div className="lg:flex space-x-6 items-center">
             <div className="text-left mt-2 lg:mt-0 lg:text-right">
                 <p>
-                xrqu.live &copy; 2020 - {new Date().getFullYear()}, All rights reserved.
+                feyagleworld.ml &copy; 2020 - {new Date().getFullYear()}, All rights reserved.
                 </p>
        
                 {/* 
@@ -26,8 +26,9 @@ const Footer = ({ better }) => {
                 !!!!!!!!!!!!!!!!!!!!!!!!!!!!
                 */}
                 <p>
-                 Developed with ❤️ by clqu
-                </p>
+                 Developed with ❤️ by Feyagle
+                 
+                  </p>
             </div>
           </div>
         </div>
