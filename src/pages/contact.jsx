@@ -103,7 +103,7 @@ export default function Projects() {
           </div>
           <div>
             <div className="space-y-4 p-4">
-                <p className="text-xl font-medium">Contact with...</p>
+                <p className="text-xl font-medium">Diğer iletişim yolları...</p>
                 <a href={'mailto:iletisim@feyagleworld.ml'} className="flex justify-between cursor-pointer hover:bg-zinc-300/50 transition-all duration-200 items-center bg-zinc-100 px-4 py-2 rounded-xl">
                   <p className="text-xl">E-posta</p>
                   <i className="fa fa-envelope text-2xl" />
