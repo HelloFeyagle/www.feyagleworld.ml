@@ -55,12 +55,7 @@ export default function Header() {
                         <div className="text-center w-48 text-white cursor-pointer transition-all duration-200 bg-cDiscord hover:opacity-90 px-6 py-2 rounded-md">
                             Benimle Konuş!
                         </div>
-                    <Link href='/youtube' passHref>
-                        <div className="text-center w-48 text-white cursor-pointer transition-all duration-200 bg-cDiscord hover:opacity-90 px-6 py-2 rounded-md">
-                            Youtube
-                        </div>
                       </Link>
-                    </Link>
                 </div>
                 
             </div>
