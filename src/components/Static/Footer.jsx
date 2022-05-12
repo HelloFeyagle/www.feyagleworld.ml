@@ -17,7 +17,7 @@ const Footer = ({ better }) => {
           <div className="lg:flex space-x-6 items-center">
             <div className="text-left mt-2 lg:mt-0 lg:text-right">
                 <p>
-                feyagleworld.ml &copy; 2020 - {new Date().getFullYear()}, All rights reserved.
+                feyagleworld.ml &copy; 2020 - {new Date().getFullYear()}, Her hakkı saklıdır.
                 </p>
        
                 {/* 
@@ -26,7 +26,7 @@ const Footer = ({ better }) => {
                 !!!!!!!!!!!!!!!!!!!!!!!!!!!!
                 */}
                 <p>
-                 Developed with ❤️ by Feyagle
+                 Feyagle tarafından ❤ ile yapılmıştır 
                   </p>
             </div>
           </div>
