@@ -9,6 +9,7 @@ export default function Header() {
     useEffect(() => { setIsOpen(isOpen) }, [isOpen]);
     const Items = [
         { label: 'Ana Sayfa', redirect: '/', icons: { default: 'fal fa-home', active: 'fa fa-home' }},
+        { label: 'Youtube', redirect: '/youtube', icons: { default: 'fal fa-home', active: 'fa fa-home' }},
         { label: 'Github', redirect: '/repositories', icons: { default: 'fal fa-compass', active: 'fa fa-compass' }},
         { label: 'İletişim', redirect: '/contact', icons: { default: 'fal fa-phone-alt', active: 'fa fa-phone-alt' }},
     ]
