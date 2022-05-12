@@ -8,9 +8,9 @@ export default function Header() {
     let [ isOpen, setIsOpen ] = useState(false);
     useEffect(() => { setIsOpen(isOpen) }, [isOpen]);
     const Items = [
-        { label: 'Home', redirect: '/', icons: { default: 'fal fa-home', active: 'fa fa-home' }},
-        { label: 'Repositories', redirect: '/repositories', icons: { default: 'fal fa-compass', active: 'fa fa-compass' }},
-        { label: 'Contact', redirect: '/contact', icons: { default: 'fal fa-phone-alt', active: 'fa fa-phone-alt' }},
+        { label: 'Ana Sayfa', redirect: '/', icons: { default: 'fal fa-home', active: 'fa fa-home' }},
+        { label: 'Github', redirect: '/repositories', icons: { default: 'fal fa-compass', active: 'fa fa-compass' }},
+        { label: 'İletişim', redirect: '/contact', icons: { default: 'fal fa-phone-alt', active: 'fa fa-phone-alt' }},
     ]
     const [scrolled, setScrolled] = useState({currentScrollHeight: 0});
     useEffect(() => {
