@@ -8,7 +8,7 @@ const Footer = ({ better }) => {
         <div className="lg:flex justify-between w-full">
           <Link href="/">
             <p className="cursor-pointer flex items-center font-medium text-2xl">
-              <span className="bg-zinc-200 text-xs px-2 py-1 mr-2 rounded-lg">v1.0</span>FeyagleWorld
+              <span className="bg-zinc-200 text-xs px-2 py-1 mr-2 rounded-lg">v1.0</span>Feyagle
               <span style={{ zIndex: 4 }} className="relative text-cIndigo">
                 .
               </span>
