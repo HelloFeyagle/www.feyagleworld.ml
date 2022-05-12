@@ -26,8 +26,8 @@ const Footer = ({ better }) => {
                 !!!!!!!!!!!!!!!!!!!!!!!!!!!!
                 */}
                 <p>
-                 Feyagle tarafından ❤ ile yapılmıştır 
-                  </p>
+                 Developed by ❤ clqu
+                 </p>
             </div>
           </div>
         </div>
