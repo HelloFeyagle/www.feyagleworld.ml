@@ -7,6 +7,11 @@ const nextConfig = {
       destination: 'https://discord.com/users/885887066880245772',
       permanent: true
     },
+    {
+      source: '/youtube',
+      destination: 'https://youtube.com/channel/UCwXARcCGn1BUFS_8g1bih4w',
+      permanent: true
+    },
   ]
 }
 
