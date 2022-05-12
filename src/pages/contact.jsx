@@ -9,7 +9,7 @@ export default function Projects() {
           default: 'fal fa-user',
           active: 'fa fa-user'
         },
-        placeholder: 'Bay p',
+        placeholder: 'Feyagle',
         type: 'input'
       },
       {
@@ -76,8 +76,8 @@ export default function Projects() {
     return <>
     <div className="px-6 lg:px-36 h-full py-36 pt-24">
         <div id="title-repos" className="relative">
-          <p style={{ zIndex: 2 }} className="relative ml-2 text-3xl lg:text-6xl font-medium">Contact</p>
-          <p className="absolute bottom-5 opacity-10 ml-2 text-8xl font-medium">Say Hello</p>
+          <p style={{ zIndex: 2 }} className="relative ml-2 text-3xl lg:text-6xl font-medium">İletişim</p>
+          <p className="absolute bottom-5 opacity-10 ml-2 text-8xl font-medium">Merhaba</p>
           <div className="h-6 w-1/2 -mt-4 opacity-20 bg-cIndigo rounded-xl" />
         </div>
 
@@ -104,21 +104,13 @@ export default function Projects() {
           <div>
             <div className="space-y-4 p-4">
                 <p className="text-xl font-medium">Contact with...</p>
-                <a href={'mailto:xrqu@sdevs.org'} className="flex justify-between cursor-pointer hover:bg-zinc-300/50 transition-all duration-200 items-center bg-zinc-100 px-4 py-2 rounded-xl">
-                  <p className="text-xl">Email</p>
+                <a href={'mailto:iletisim@feyagleworld.ml'} className="flex justify-between cursor-pointer hover:bg-zinc-300/50 transition-all duration-200 items-center bg-zinc-100 px-4 py-2 rounded-xl">
+                  <p className="text-xl">E-posta</p>
                   <i className="fa fa-envelope text-2xl" />
                 </a>
                 <a href={'/talk'} target="_blank" className="flex justify-between cursor-pointer hover:bg-zinc-300/50 transition-all duration-200 items-center bg-zinc-100 px-4 py-2 rounded-xl">
                   <p className="text-xl">Discord</p>
                   <i className="fab fa-discord text-2xl" />
-                </a>
-                <a href={'https://twitter.com/xrqulivee'} target="_blank" className="flex justify-between cursor-pointer hover:bg-zinc-300/50 transition-all duration-200 items-center bg-zinc-100 px-4 py-2 rounded-xl">
-                  <p className="text-xl">Twitter</p>
-                  <i className="fab fa-twitter text-2xl" />
-                </a>
-                <a href={'https://instagram.com/xrqu.live'} target="_blank" className="flex justify-between cursor-pointer hover:bg-zinc-300/50 transition-all duration-200 items-center bg-zinc-100 px-4 py-2 rounded-xl">
-                  <p className="text-xl">Instagram</p>
-                  <i className="fab fa-instagram text-2xl" />
                 </a>
             </div>
           </div>
