@@ -28,7 +28,7 @@ export default function Header() {
             <div className="lg:grid lg:grid-cols-12 flex justify-between items-center w-full">
                 <div className="col-span-3 w-full">
                     <Link href="/">
-                        <p className="cursor-pointer font-medium text-2xl">FeyagleWorld<span className="text-cIndigo">.</span></p>
+                        <p className="cursor-pointer font-medium text-2xl">Feyagle<span className="text-cIndigo">.</span></p>
                     </Link>
                 </div>
                 <div className="hidden col-span-6 gap-x-4 w-full lg:flex justify-center">
@@ -74,7 +74,7 @@ export default function Header() {
         >
             <div style={{ zIndex: 9999 }} className="p-6 bg-zinc-100 h-full fixed w-full top-0 left-0">
                 <div className="flex justify-between w-full items-center">
-                    <p className="cursor-pointer font-medium text-2xl">FeyagleWorld<span className="text-cIndigo">.</span></p>
+                    <p className="cursor-pointer font-medium text-2xl">Feyagle<span className="text-cIndigo">.</span></p>
                     <p onClick={() => {
                         setIsOpen(!isOpen)
                         document.documentElement.classList.remove('overflow-hidden');
