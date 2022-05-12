@@ -9,7 +9,6 @@ export default function Header() {
     useEffect(() => { setIsOpen(isOpen) }, [isOpen]);
     const Items = [
         { label: 'Home', redirect: '/', icons: { default: 'fal fa-home', active: 'fa fa-home' }},
-        { label: 'Projects', redirect: '/projects', icons: { default: 'fal fa-compass', active: 'fa fa-compass' }},
         { label: 'Repositories', redirect: '/repositories', icons: { default: 'fal fa-compass', active: 'fa fa-compass' }},
         { label: 'Contact', redirect: '/contact', icons: { default: 'fal fa-phone-alt', active: 'fa fa-phone-alt' }},
     ]
@@ -28,7 +27,7 @@ export default function Header() {
             <div className="lg:grid lg:grid-cols-12 flex justify-between items-center w-full">
                 <div className="col-span-3 w-full">
                     <Link href="/">
-                        <p className="cursor-pointer font-medium text-2xl">xrqu<span className="text-cIndigo">.</span></p>
+                        <p className="cursor-pointer font-medium text-2xl">FeyagleWorld<span className="text-cIndigo">.</span></p>
                     </Link>
                 </div>
                 <div className="hidden col-span-6 gap-x-4 w-full lg:flex justify-center">
@@ -54,8 +53,13 @@ export default function Header() {
                     </div>
                     <Link href='/talk' passHref>
                         <div className="text-center w-48 text-white cursor-pointer transition-all duration-200 bg-cDiscord hover:opacity-90 px-6 py-2 rounded-md">
-                            Let's Talk
+                            Benimle Konuş!
                         </div>
+                    <Link href='/youtube' passHref>
+                        <div className="text-center w-48 text-white cursor-pointer transition-all duration-200 bg-cDiscord hover:opacity-90 px-6 py-2 rounded-md">
+                            Youtube
+                        </div>
+                      </Link>
                     </Link>
                 </div>
                 
@@ -74,7 +78,7 @@ export default function Header() {
         >
             <div style={{ zIndex: 9999 }} className="p-6 bg-zinc-100 h-full fixed w-full top-0 left-0">
                 <div className="flex justify-between w-full items-center">
-                    <p className="cursor-pointer font-medium text-2xl">xrqu<span className="text-cIndigo">.</span></p>
+                    <p className="cursor-pointer font-medium text-2xl">FeyagleWorld<span className="text-cIndigo">.</span></p>
                     <p onClick={() => {
                         setIsOpen(!isOpen)
                         document.documentElement.classList.remove('overflow-hidden');
