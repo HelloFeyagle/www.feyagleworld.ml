@@ -1,9 +1,9 @@
 module.exports = {
     base: 'https://xrqu.live',
     meta: {
-        title: 'FeyagleWorld | WebSite',
+        title: 'Feyagle | WebSite',
         url: 'https://www.feyagleworld.ml',
-        description: 'FeyagleWorld ün kişisel sitesi',
+        description: 'Feyaglenin kişisel sitesi,'
         themeColor: '#4F3DFE',
         image: 'https://cdn.xrqudevs.ml/images/xrqu.live/favicon.png'
     },
