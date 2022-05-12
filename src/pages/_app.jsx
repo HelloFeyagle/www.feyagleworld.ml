@@ -25,7 +25,7 @@ function MyApp({ Component, pageProps }) {
         config?.titles[router?.asPath] ? (
           config?.titles[router?.asPath] + ' | ' + config?.titleSuffix
         ) : 'Blank | feyagleworld.ml'
-      ) : 'Loading... | feyagleworld.ml}
+      ) : 'Loading... | feyagleworld.ml'}
     </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </Head>
