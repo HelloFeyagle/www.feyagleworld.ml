@@ -7,7 +7,7 @@ module.exports = {
         themeColor: '#4F3DFE',
         image: 'https://cdn.xrqudevs.ml/images/xrqu.live/favicon.png'
     },
-    titleSuffix: 'FeyagleWorld',
+    titleSuffix: 'Feyagle',
     titles: {
         '/': 'Ana Sayfa',
         '/repositories': 'Github',
