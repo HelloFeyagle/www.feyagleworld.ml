@@ -22,8 +22,8 @@ export default function Projects() {
     
     <div className="px-6 lg:px-36 h-full py-36 pt-24">
         <div id="title-repos" className="relative">
-          <p style={{ zIndex: 2 }} className="relative ml-2 text-3xl lg:text-6xl font-medium">Repositories</p>
-          <p className="hidden lg:block absolute bottom-5 opacity-10 ml-2 text-8xl font-medium">Repositories</p>
+          <p style={{ zIndex: 2 }} className="relative ml-2 text-3xl lg:text-6xl font-medium">Github Depolarım</p>
+          <p className="hidden lg:block absolute bottom-5 opacity-10 ml-2 text-8xl font-medium">Github Depolarım</p>
           <div className="h-3 lg:h-6 w-2/4 -mt-2 lg:-mt-4 opacity-20 bg-cIndigo rounded-xl" />
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 h-full gap-6 mt-6">
