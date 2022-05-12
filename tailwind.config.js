@@ -8,7 +8,8 @@ module.exports = {
       colors: {
         cBlue: '#11d646',
         cIndigo: '#11d646',
-        cDiscord: '#00000'
+        cDiscord: '#000000',
+        cSiyah: '#000000'
       }
     },
   },
