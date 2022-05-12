@@ -97,7 +97,7 @@ export default function Projects() {
                 </>
               ))}
               <button type={'submit'} disabled={submited} className="text-center w-48 text-white cursor-pointer transition-all duration-200 bg-cDiscord hover:opacity-90 px-6 py-2 rounded-md">
-                  {submited ? <i className="fal fa-spinner-third fa-spin" /> : 'Submit'}
+                  {submited ? <i className="fal fa-spinner-third fa-spin" /> : 'Gönder'}
               </button>
             </form>
           </div>
