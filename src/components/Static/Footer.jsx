@@ -26,7 +26,7 @@ const Footer = ({ better }) => {
                 !!!!!!!!!!!!!!!!!!!!!!!!!!!!
                 */}
                 <p>
-                 Developed by ❤ clqu
+                 Feyagle World
                  </p>
             </div>
           </div>
