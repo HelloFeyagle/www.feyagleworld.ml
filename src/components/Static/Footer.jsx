@@ -21,9 +21,9 @@ const Footer = ({ better }) => {
                 </p>
        
                 {/* 
-                !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-                    FEYAGLE BU ALTTAKİ TELİF HAKKI MESAJINI KALDIRMA
-                !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                    ALTTAKİ TELİF HAKKI MESAJINI SAKIN AMA SAKIN KALDIRMA FEYAGLE 
+                !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
                 */}
                 <p>
                  Developed with by ❤ clqu
