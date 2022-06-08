@@ -21,12 +21,12 @@ const Footer = ({ better }) => {
                 </p>
        
                 {/* 
-                !!!!!!!!!!!!!!!!!!!!!!!!!!!!
-                    DONT TOUCH THIS PART
-                !!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                    FEYAGLE BU ALTTAKİ TELİF HAKKI MESAJINI KALDIRMA
+                !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
                 */}
                 <p>
-                 Feyagle World
+                 Developed with by ❤ clqu
                  </p>
             </div>
           </div>
