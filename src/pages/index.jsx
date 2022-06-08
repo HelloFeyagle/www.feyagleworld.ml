@@ -21,7 +21,7 @@ export default function Home({ better }) {
 
   useEffect(() => {
     (async() => {
-      let _user = await fetch('https://cdn.discordapp.com/attachments/963717446773116959/984081997523734548/5c728e06627c70ccdc4041022b28f9dd.jpg').then(r => r.json());
+      let _user = await fetch('https://api.lanyard.rest/v1/users/885887066880245772').then(r => r.json());
       setUser(_user?.data?.discord_user || {});
     })();
   }, [router]);
