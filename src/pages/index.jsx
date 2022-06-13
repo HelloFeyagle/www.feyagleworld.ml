@@ -62,7 +62,7 @@ export default function Home({ better }) {
   return (
     <>
         <div className="relative px-6 py-24 lg:py-8 lg:px-36 lg:py-24 lg:pb-96 flex flex-col items-center justify-center">
-        <h1 className="font-medium text-4xl break-words max-w-2xl text-center">Merhaba,Ben
+        <h1 className="font-medium text-4xl break-words max-w-2xl text-center">Merhaba, Ben
           <span className="text-cDiscord"> Feyagle</span>. 
         her zaman 
             <span className="text-cDiscord"> {better} </span>
