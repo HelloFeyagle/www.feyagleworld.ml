@@ -59,9 +59,9 @@
     top: 0;
     bottom: 0;
     background: 
-      radial-gradient(at 150% 150%, #FAF60C 0, transparent 54%),
-      radial-gradient(at 150% 0%, #FAF60C 0, transparent 0%),
-      radial-gradient(at 1% 10%, #FAF60C 0, transparent 50%);
+      radial-gradient(at 150% 150%, #595cff 0, transparent 54%),
+      radial-gradient(at 150% 0%, #595cff 0, transparent 0%),
+      radial-gradient(at 1% 10%, #595cff 0, transparent 50%);
     max-height: 100%;
     max-width: 100%;
     width: 100%;
