@@ -6,10 +6,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        cBlue: '#11d646',
-        cIndigo: '#11d646',
-        cDiscord: '#000000',
-        cSiyah: '#000000'
+        cBlue: '#595cff',
+        cIndigo: '#595cff',
+        cDiscord: '#595cff',
+        cSiyah: '#595cff'
       }
     },
   },
