@@ -21,7 +21,7 @@ export default function Home({ better }) {
 
   useEffect(() => {
     (async() => {
-      let _user = await fetch('https://api.lanyard.rest/v1/users/885887066880245772').then(r => r.json());
+      let _user = await fetch('https://api.lanyard.rest/v1/users/981137134457077820').then(r => r.json());
       setUser(_user?.data?.discord_user || {});
     })();
   }, [router]);
