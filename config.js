@@ -5,7 +5,7 @@ module.exports = {
         url: 'https://www.feyagleworld.ml',
         description: 'Feyaglenin kişisel sitesi. Yeni Projemiz Çok Yakında!',
         themeColor: '#4F3DFE',
-        image: 'https://cdn.xrqudevs.ml/images/xrqu.live/favicon.png'
+        image: 'https://giveaways-bot.com/img/favicon.png'
     },
     titleSuffix: 'Feyagle',
     titles: {
