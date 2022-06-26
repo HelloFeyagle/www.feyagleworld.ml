@@ -3,7 +3,7 @@ module.exports = {
     meta: {
         title: 'Feyagle | WebSite',
         url: 'https://www.feyagleworld.ml',
-        description: 'Feyaglenin kişisel sitesi. Yeni Projemiz Çok Yakında!',
+        description: 'Feyaglenin kişisel sitesi.',
         themeColor: '#4F3DFE',
         image: 'https://giveaways-bot.com/img/favicon.png'
     },
